@@ -11,11 +11,11 @@ body {
 
 a {
     text-decoration: none;
-    color: #1da2d6;
+    color: #ffffff;
 }
 
 a:hover {  /* pseudo-classe */
-    color: #5993aa;
+    color: #d06f6f;
     text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     bottom: 0;
     width: 300px;
-    background: #0c1f34; /* Fundo Header Vertical */
+    background: #32030c; /* Fundo Header Vertical */
     transition: all ease-in-out 2s;
     z-index: 9999; /* sobrepõe o conteúdo do site ficando por cima */
     padding: 0 35px;
@@ -42,6 +42,34 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px auto;
     display: block;
     width: 170px;
-    border: 3px solid #1da2d6;
-   /* box-shadow: ; */
+    border: 3px solid #d8a4a4;
+    box-shadow: 0px 0px 15px #d8a4a4;  /* Cria uma sombra ( o primeiro valor é Y = Cima, segundo valor X = Baixo, terceiro valor dá um efeito de esfumaçado )--( os valores 0px e 0px deixa a sombra centralizada,para colocar a sombra em outras direções teste colocar o número em negativo ex: -10px )--( o box-shadow funciona em texto também ) */
+}
+
+.text-light a {
+    font-family: "Spicy Rice",serif;
+    color: #d06f6f;
+    font-size: 34px;
+    /* font-weight:; = grossura da fonte, recomendado para fontes finas */
+}
+
+.text-light a:hover { 
+    color: #d8a4a4;
+}
+
+#header .perfil .social-links i {
+    font-size: 24px;
+    color: #fff;
+    background: #d8a4a4;
+    border-radius: 50%;
+    margin-right: 5px;
+    text-align: center;
+    display: inline; /* ajusta para a altura da linha */
+    padding: 5px;
+}
+
+#header .perfil .social-links i:hover {
+    color: #d06f6f;
+    background-color: #fff;
+    transition: all 0.3s;
 }
