@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     color: #d8a4a4;
-    padding: 12px 15px;
+    padding: 9px 15px;
     margin-bottom: 8px;
     transition: 0.3s;
     font-size: 15px;
@@ -157,4 +157,31 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50px;
     cursor: pointer;
 }
+
+.mobile-nav-active {
+    overflow: hidden;
+}
+
+.mobile-nav-active #header {
+    left: 0;
+}
+
 /* Fim Mobile Menu */
+
+/* Resolução Mobile */
+@media (max-width: 1199px) {  /* max-width = máxima resolução (tamanho), significa resolução até 1199px (o valor proposto) */
+    #header {
+        left: -300px;
+    }
+
+    #main {
+        margin-left: 0;
+    }
+
+    .container,
+    .container-fluid {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+/* Fim Resolução Mobile */
