@@ -185,3 +185,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 /* Fim Resolução Mobile */
+
+/* Hero */
+#hero {
+    width: 100%;
+    height: 100vh; /* vh = viewport height (),vw = viewport width () */
+    background: url(../img/hero-bg.png); 
+    background-size: cover; 
+}
+/* Fim Hero */
