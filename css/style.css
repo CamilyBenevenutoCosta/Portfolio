@@ -286,7 +286,7 @@ section {
     display: block;
     width: 50px;
     height: 3px;
-    background: #d06f6f;
+    background: #ff8888;
     bottom: 0;
     left: 0;
 }
@@ -317,5 +317,31 @@ section {
     display: flex;
     align-items: center;
 }
+
+.about .content ul strong {
+    margin-right: 10PX;
+    color: #f05b5b;
+    font-weight: 200;
+}
+
+.about .content ul span {
+    color: #db6a6a;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.about .content p {
+    color: #db6a6a;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
+}
+
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #ff8888;
+    line-height: 0;
+}
 /* Fim # About */
+
 /* Fim Seções Geral */
